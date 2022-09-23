@@ -2,10 +2,11 @@
 int main()
 {
 printf("Enter a number : ") ;
-int a , last_digit;
+int a , digit ;
 scanf("%d",&a);
-last_digit = a / 10 ;
-printf("\n%d",last_digit);
+digit = a % 10 ; 
+a = a - digit ;
+printf("\nThe new number is %d " , a) ;
 return 0;
 }
 
