@@ -1,1 +1,11 @@
+void swap(int * , int *);
 
+// function to swap values of two in variables of calling function using pointers
+
+void swap(int *p , int *q)
+{
+    int temp ;
+    temp = *p ;
+    *p = *q ;
+    *q = temp ;
+}
